@@ -22,7 +22,9 @@ const UserPage = () => {
             );
           })
         ) : (
-          <Loader />
+          <div className="d-flex justify-content-center align-items-center mt-5 pt-5">
+            <Loader />
+          </div>
         )}
       </div>
     </div>
